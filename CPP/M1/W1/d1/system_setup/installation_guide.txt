@@ -1,0 +1,8 @@
+1. Download MinGW and install it
+2. add new environment variable to your system as c:/minGW/bin
+3. Download Visual studio
+4. Go to extention section in vs code and install c/c++ intellisense package 
+5. Write your first code and compile.
+
+Note: If g++ demo.cpp -o demo fails then may be libiconv-2 is missing install it using cmd
+by mingw-get install --reinstall mingw32-libiconv-dll
